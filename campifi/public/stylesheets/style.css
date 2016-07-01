@@ -154,11 +154,14 @@ button {
 .avatar img {
   width: 150px;
   height: 150px;
-  margin: 7.5vw;
+  margin: 2.5vw;
   margin-left: 10vw;
 }
 .avatar h2 {
   margin-left: 5vw;
+}
+.pawel {
+  margin-left: 31vw;
 }
 .container {
   max-width: 600px;
