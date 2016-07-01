@@ -19,7 +19,7 @@ console.log(array);
                lat: 39.7392,
                lng: -104.9903
            },
-           zoom: 6,
+           zoom: 8,
            mapTypeId: google.maps.MapTypeId.TERRAIN
        });
        var infoWindow = new google.maps.InfoWindow({
