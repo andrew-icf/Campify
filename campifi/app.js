@@ -20,6 +20,7 @@ var campsite = require('./routes/campsite');
 var logout = require('./routes/logout');
 var favorite = require('./routes/favorite');
 var marker_json = require('./routes/marker_json');
+var team = require('./routes/team');
 
 
 require('dotenv').config();
@@ -39,7 +40,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(session({keys: [process.env.SESSION_KEY1, process.env.SESSION_KEY2]}))
+app.use(session({keys: [process.env.SESSION_KEY1, process.env.SESSION_KEY2]}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
@@ -52,6 +53,7 @@ app.use('/campsite', campsite);
 app.use('/logout', logout);
 app.use('/favorite', favorite);
 app.use('/marker_json', marker_json);
+app.use('/team', team);
 
 
 // catch 404 and forward to error handler

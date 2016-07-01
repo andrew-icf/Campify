@@ -148,6 +148,18 @@ button {
   justify-content: center;*/
 }
 
+.avatar {
+  display: inline-block;
+}
+.avatar img {
+  width: 150px;
+  height: 150px;
+  margin: 7.5vw;
+  margin-left: 10vw;
+}
+.avatar h2 {
+  margin-left: 5vw;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
