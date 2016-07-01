@@ -4,7 +4,7 @@ window.initMap = function() {
             lat: 39.7392,
             lng: -104.9903
         },
-        zoom: 8,
+        zoom: 10,
         mapTypeId: google.maps.MapTypeId.TERRAIN
     });
     var infoWindow = new google.maps.InfoWindow({
@@ -29,7 +29,7 @@ window.initMap = function() {
             map.setCenter(pos);
             $('.longitude').val(pos.lng);
             $('.latitude').val(pos.lat);
-            
+
             google.maps.event.addListener(map, 'click', function(event) {
                 marker.setPosition(event.latLng);
                 latPos = position.coords.latitude;

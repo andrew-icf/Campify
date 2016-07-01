@@ -48,13 +48,17 @@
         </div>
     </div>
 {{/each}}
+
+<div class="row">
+  <h3 class="medium-6 medium-centered columns margMe">Comment:</h3>
+</div>
 <form class="" action="/campsite/comment/{{site.id}}" method="post">
     <div class="row">
         <div class="medium-6 medium-centered columns">
-            <label for="message" class='text-center'>Comment:
+            <!-- <h1><label for="message" class='text-center'>Comment:</label></h1> -->
                 <textarea name="message" rows="8" cols="40" placeholder="Comment Here!">
                 </textarea>
-            </label>
+
         </div>
     </div>
     <div class="row">

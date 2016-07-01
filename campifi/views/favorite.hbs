@@ -26,11 +26,13 @@
 <ul>
     {{#each site}}
         <div class="row descBg">
-            <div class="small-12 large-12 text-center columns">
+            <div class="small-12 medium-12  small-centered medium-centered text-center columns">
 
                 <li>
                     <h3>{{name}}</h3>
-                    <img src="{{image}}" alt="camp" class="campsiteImage" />
+                    <div class="row">
+                      <img src="{{image}}" alt="camp" class="small-12 medium-12  small-centered medium-centered columns campsiteImage" />
+                    </div>
                     <p>{{description}} </p>
                     <p>
                         longitude: {{longitude}}
