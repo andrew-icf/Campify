@@ -2,7 +2,7 @@
 
 # Galvanize Group Project Proposal
 
-![Alt text](/campifiski.jpg?raw=true "Campifi")
+![Campifi](/campifiski.png?raw=true "Campifi")
 
 
 ## Group Members
