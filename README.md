@@ -1,6 +1,7 @@
 # CAMPIFI
 
 # Galvanize Group Project Proposal
+[Click me to go Camping!](https://campifi.herokuapp.com/)
 
 ![Campifi](/campifiski.png?raw=true "Campifi")
 
